@@ -7,7 +7,7 @@ public class SampleOldManualTest {
 
     public static void main(String[] args) throws Exception {
         PassFailJFrame passFail = new PassFailJFrame(INSTRUCTIONS);
-        SwingUtilities.invokeAndWait(() -> createTestUI());
+        SwingUtilities.invokeAndWait(SampleOldManualTest::createTestUI);
         passFail.awaitAndCheck();
     }
 

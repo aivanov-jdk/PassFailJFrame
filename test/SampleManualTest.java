@@ -7,7 +7,7 @@ public class SampleManualTest {
     public static void main(String[] args) throws Exception {
         PassFailJFrame.builder()
                       .instructions(INSTRUCTIONS)
-                      .testUI(() -> createTestUI())
+                      .testUI(SampleManualTest::createTestUI)
                       .build()
                       .awaitAndCheck();
     }
