@@ -1,6 +1,12 @@
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
+/*
+ * @test
+ * @library /java/awt/regtesthelpers
+ * @build PassFailJFrame
+ * @run main/manual SampleOldManualTest
+ */
 public class SampleOldManualTest {
     private static final String INSTRUCTIONS =
             "Click Pass, or click Fail if the test failed.";
