@@ -15,7 +15,8 @@ public class SampleOldManualTest {
         JFrame testUI = new JFrame("Test UI");
         testUI.setSize(250, 150);
         PassFailJFrame.addTestWindow(testUI);
-        PassFailJFrame.positionTestWindow(testUI, PassFailJFrame.Position.HORIZONTAL);
+        PassFailJFrame.positionTestWindow(testUI,
+                                          PassFailJFrame.Position.HORIZONTAL);
         testUI.setVisible(true);
     }
 }
